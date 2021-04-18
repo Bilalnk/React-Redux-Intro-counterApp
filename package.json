@@ -36,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+
+  "repository": {
+   "type": "git" ,
+   "url": "https://github.com/Bilalnk/React-Redux-Intro-counterApp.git"
   }
 }
