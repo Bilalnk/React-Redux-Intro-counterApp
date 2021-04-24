@@ -1,6 +1,6 @@
 import * as actionTypes from "../actions/actionTypes"
 
-const counteerReducer = (state= 0, action) => {
+const counteerReducer = (state = 0, action) => {
     let newState;
 
     switch (action.type) {
@@ -10,6 +10,8 @@ const counteerReducer = (state= 0, action) => {
             return (newState = state - action.payload);
         case actionTypes.INCREASE_BY_TWO_COUNTER:
             return (newState = state + action.payload);
+        case actionTypes.DECREASE_BY_TWO_COUNTER:
+            return (newState = state - action.payload)
         default:
             return state;
     }

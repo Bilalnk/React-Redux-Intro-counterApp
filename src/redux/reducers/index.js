@@ -5,7 +5,8 @@ import counterReducer from "./counterReducer"
 //Eğer bir tane daha reducer'ımız olursa virgül ile ayrılır
 
 const reducers = combineReducers({
-    counterReducer // counterReducer: counterReducer
+    myCounterReducer: counterReducer,
+     // counterReducer: counterReducer
 });
 
 export default reducers;

@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import { connect } from 'react-redux'
-import { bindActionCreators } from 'redux'
-import {  increaseByTwoCounter } from '../redux/actions/counterActions'
+import React, {Component} from 'react'
+import {connect} from 'react-redux'
+import {bindActionCreators} from 'redux'
+import {increaseByTwoCounter} from '../redux/actions/counterActions'
 
 class IncreaseByTwoCounter extends Component {
     render() {
@@ -17,9 +17,9 @@ class IncreaseByTwoCounter extends Component {
     }
 }
 
-function mapProplarlaEsle(dispatch){
+function mapProplarlaEsle(dispatch) {
     return {
-        actiosns: bindActionCreators(increaseByTwoCounter, dispatch) 
+        actions: bindActionCreators(increaseByTwoCounter, dispatch)
     }
 }
 

@@ -12,7 +12,7 @@ const myStore = configureStore();
 ReactDOM.render(
   <React.StrictMode>
     <Provider store={myStore}>
-    <App />
+    <App/>
     </Provider>
   
   </React.StrictMode>,

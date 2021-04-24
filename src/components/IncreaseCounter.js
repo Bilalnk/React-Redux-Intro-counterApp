@@ -18,7 +18,7 @@ class IncreaseCounter extends Component {
 
 function mapDispatchToProps(dispatch){
     return {
-        actions:bindActionCreators(increaseCounter, dispatch)
+        actions : bindActionCreators(increaseCounter, dispatch)
     }
 }
 
